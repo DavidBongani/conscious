@@ -1,0 +1,19 @@
+body{box-sizing: border-box;}
+nav{display: flex;justify-content: space-between;}
+main{display: flex;justify-content: space-between;}
+footer{display: flex;justify-content: space-between;}
+.greengrey-gradient {background: linear-gradient(white,darkgreen,grey,black)  ;}
+.grey-element {color: grey;}
+.green-element {color: darkgreen;}
+.fontfam{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+.inlineB{display: inline-block;}
+.socialmedia-logo{width: 30px; height: 30px;}
+.flexitem{ flex-basis:100px;}
+.clear{clear: left;}
+#expert-div{ height: 300px; width: 300px;
+    background-color:white; position: relative; top: 50px; right: 50px;}
+#img-expert{height: 400px; width: 900px; float: left; flex-basis: 75%;}
+#img-footerlogo{width: 100px; height: 100px; float: left;}
+#logo{width: 100px; height: 100px;}
+#about-div{height: 100px; width: 300px;}
+#links-list{ position: relative; top: 150px;}
