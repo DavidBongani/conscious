@@ -1,0 +1,421 @@
+body{
+
+    font-size: 14px; color:navy;
+    font-family: 'Oxygen', sans-serif;
+    background-color:aliceblue ;
+    padding: 50px;
+    }
+    
+    /* Header Nav */
+    #header-nav{
+        
+        background-color:aliceblue;
+        color:pink ;
+        border-radius: 0;
+        border: 0;
+    
+    }
+    #inner-nav{
+        background-color:aliceblue ;
+        background-image: none;
+        border-radius: 0;
+        border: 0;
+    }
+    #logo{
+        background: url(../website) no-repeat;
+        background-position: center;
+        background-size: 100px 100px;
+        width: 100px;
+         height: 100px;
+        margin: 10px 15px 10px 0;}
+        .navbar-brand {
+            padding: 25px;
+        }
+        .navbar-brand h1 {
+            color:pink ;
+            font-size: 1em;
+            text-transform: uppercase;
+            font-weight: bold;
+            text-shadow: 5px 5px 5px navy;
+    
+        }
+        .navbar-brand h1:hover{
+            box-shadow: 0 5px 5px 5px navy;
+        }
+        .navbar-brand p {
+            color:navy;
+            font-size: 0.5em;
+            text-transform: uppercase;
+            font-weight: bold;}
+            
+        .navbar-brand a:hover, .navbar-brand a:focus {
+            text-decoration: none;
+        }
+    
+        #nav-list { margin-top: 10px;
+    
+        }
+        #nav-list a {
+            color:pink;
+            text-align: center;
+        }
+        #nav-list a:hover{
+            background-color: navy ;
+        }
+        .navbar .nav .active>a, .navbar .nav .active>a:hover {
+            color:pink;
+            text-decoration: none;
+            background-color:pink;
+        }
+       
+        #nav-list1 a.green-element:hover{
+            background-color:navy ;
+        }
+        .navbar .nav>li>a:hover{
+            background-color: transparent;
+            color: navy;
+            text-decoration: none
+        }
+        .navbar .nav>li>a{
+            color:pink 
+       }
+       
+        #search-query {
+            color:aliceblue ;
+            background-color: navy;
+            border: 1px solid aliceblue;
+            margin-top: 10px;
+            width: 90%;
+        }
+        a.btn.btn-navbar {
+            border: 1px solid pink;
+            color:pink ;
+            background-color:pink ;
+            background-image: none;
+        }
+        a.btn.btn-navbar:hover{
+            background-color:navy ;
+        }
+        span.icon-bar{
+            background-color:navy ;
+        }
+        .navbar-search {
+            float: right;
+        }
+    
+        /********** Main Content **********/
+      
+       .hero-unit h1{
+           font-family:  'Oxygen', sans-serif;
+           color: navy;
+           font-size: 30px
+           
+       }
+       .hero-unit p{
+        font-size:1em ;
+        line-height: normal;
+       }
+       a.btn.btn-primary.btn-large{
+        background-color:pink ;
+        background-image: none;
+        font-weight: bolder;
+        }
+        a.btn.btn-primary.btn-large:hover{
+            box-shadow: 0 5px 5px 5px navy;
+        }
+    #link2-tile, #link3-tile, #cons-tile, #google-tile, #microsoft-tile, #whatsapp-tile, #instagram-tile, #facebook-tile, #twitter-tile, #netflix-tile,
+    #youtube-tile, #dropbox-tile, #scmobile-tile, #momo-tile, #atlasmara-tile{
+        height: 250px;
+        width: 95%;
+        margin-bottom:  15px;
+        position: relative;
+        border: 2px solid pink;
+        overflow: hidden;
+    
+    }
+    
+    #link2-tile:hover, #link3-tile:hover, #cons-tile:hover, #whatsapp-tile:hover, #google-tile:hover, #microsoft-tile:hover, #instagram-tile:hover, #facebook-tile:hover,
+     #twitter-tile:hover, #netflix-tile:hover, #youtube-tile:hover, #dropbox-tile:hover, #scmobile-tile:hover, #momo-tile:hover, #atlasmara-tile:hover {
+        box-shadow: 0 5px 5px 5px navy;
+    }
+    
+    #link2-tile{
+    background: url() no-repeat;
+    background-position: center;
+    background-size: 200px 200px;
+    }
+    
+    #link3-tile{
+    background: url() no-repeat;
+    background-position: center;
+    background-size: 200px 200px;
+    } 
+    
+    #cons-tile{
+    background: url() no-repeat;
+    background-position: center;
+    background-size: 200px 200px;
+    }
+    
+    #google-tile{
+    background: url() no-repeat;
+    background-position: center;
+    background-size: 200px 200px;
+    }
+    #microsoft-tile{
+        background: url() no-repeat;
+        background-position: center;
+        background-size: 200px 200px; 
+    }
+    
+    #whatsapp-tile{
+        background: url() no-repeat;
+        background-position: center;
+        background-size: 200px 200px;
+    }
+    #instagram-tile{
+        background: url() no-repeat;
+        background-position: center;
+        background-size: 200px 200px;
+    }
+    #facebook-tile{
+        background: url() no-repeat;
+        background-position: center;
+        background-size: 200px 200px; 
+    }
+    #twitter-tile{
+        background: url() no-repeat;
+        background-position: center;
+        background-size: 200px 200px;    
+    }
+    #netflix-tile{
+        background: url() no-repeat;
+        background-position: center;
+        background-size: 200px 200px;    
+    }
+    #youtube-tile{
+        background: url() no-repeat;
+        background-position: center;
+        background-size: 200px 200px;
+    }
+    #dropbox-tile{
+        background: url() no-repeat;
+        background-position: center;
+        background-size: 200px 200px;    
+    }
+    #scmobile-tile{
+        background: url() no-repeat;
+        background-position: center;
+        background-size: 200px 200px;
+    }
+    #momo-tile{
+        background: url() no-repeat;
+        background-position: center;
+        background-size: 200px 200px;
+    }
+    #atlasmara-tile{
+        background: url() no-repeat;
+        background-position: center;
+        background-size: 200px 200px;
+    }
+    #link2-tile span, #link3-tile span, #cons-tile span, #google-tile span, #microsoft-tile span, #whatsapp-tile span,  #instagram-tile span, #facebook-tile span, 
+    #twitter-tile span, #netflix-tile span, #youtube-tile span, #dropbox-tile span, #scmobile-tile span, #momo-tile span, #atlasmara-tile span{
+        position: absolute;
+        top: 0px;
+        right: 0;
+        width: 100%;
+        text-align: center;
+        font-size: 1.6em;
+        text-transform: uppercase;
+        background-color: pink;
+        color:navy;
+        opacity: .8;
+    }
+    /********** footer **********/
+    .panel-footer{
+        margin-top: 30px;
+        padding-top: 35px;
+        padding-bottom: 30px;
+        background-color: aliceblue;
+        border-top: 0;
+    }
+    #footerlogo{
+        width: 100px; height: 100px;
+        
+    }
+    #purpose{
+        text-align: center;
+    }
+    #media-links{
+    text-align: center;
+    }
+    #footer-links{
+        text-align: center;
+    }
+    #address{
+        text-align: center;
+    }
+    #media-links span, #footer-links span, #address span, #purpose span{
+    width: 100%
+    }
+    .socialmedia-logo{width: 30px; height: 30px;}
+    .socialmedia-logo:hover{
+        box-shadow: 0px 2px 2px 2px navy;
+    }
+    .inlineB{display: inline-block;}
+    .fonts{font-family: 'Fira Sans', sans-serif;}
+    .clearleft{clear: left;}
+    .clearright{clear: right;}
+    .logo{width: 300px; height: 300px; float: right;}
+    
+    
+    
+    
+    
+    /********** Simple Responsive Framework **********/
+    .row{
+        width: 100%;
+    }
+    
+    /********** Large desktop **********/
+    @media (min-width: 1200px) {
+        .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6,
+         .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+            float: left;
+            border: 0px solid pink;
+        }
+    .col-lg-1{width: 8.33%;}
+    .col-lg-2{width: 16.66%;}
+    .col-lg-3{width: 25%;}
+    .col-lg-4{width: 33.33%;}
+    .col-lg-5{width: 41.66%;}
+    .col-lg-6{width: 50%;}
+    .col-lg-7{width: 58.33%;}
+    .col-lg-8{width: 66.66%;}
+    .col-lg-9{width: 75%;}
+    .col-lg-10{width: 83.33%;}
+    .col-lg-11{width: 91.66%;}
+    .col-lg-12{width: 100%;}
+    #purpose{
+        text-align: left;
+    }
+    #media-links{
+    text-align: left;
+    }
+    #footer-links{
+        text-align: right;
+    }
+    #address{
+        text-align: right;
+    }
+     }
+     /********** Medium Devices **********/
+    @media (min-width: 992px) and (max-width: 1199px) { 
+        .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6,
+         .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+            float: left;
+            border: 0px solid pink;
+         }
+    
+        .col-md-1{width: 8.33%;}
+        .col-md-2{width: 16.66%;}
+        .col-md-3{width: 25%;}
+        .col-md-4{width: 33.33%;}
+        .col-md-5{width: 41.66%;}
+        .col-md-6{width: 50%;}
+        .col-md-7{width: 58.33%;}
+        .col-md-8{width: 66.66%;}
+        .col-md-9{width: 75%;}
+        .col-md-10{width: 83.33%;}
+        .col-md-11{width: 91.66%;}
+        .col-md-12{width: 100%;}
+        #purpose{
+            text-align: left;
+        }
+        #media-links{
+        text-align: left;
+        }
+        #footer-links{
+            text-align: right;
+        }
+        #address{
+            text-align: right;
+        }
+     }
+     /********** Small devices Tablets **********/
+    @media (min-width: 768px) and (max-width: 991px) { 
+        .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, 
+        .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+            float: left;
+            border: 0px solid pink;
+        }
+    
+        .col-sm-1{width: 8.33%;}
+        .col-sm-2{width: 16.66%;}
+        .col-sm-3{width: 25%;}
+        .col-sm-4{width: 33.33%;}
+        .col-sm-5{width: 41.66%;}
+        .col-sm-6{width: 50%;}
+        .col-sm-7{width: 58.33%;}
+        .col-sm-8{width: 66.66%;}
+        .col-sm-9{width: 75%;}
+        .col-sm-10{width: 83.33%;}
+        .col-sm-11{width: 91.66%;}
+        .col-sm-12{width: 100%;}
+        #footerlogo{
+        
+            position: relative;
+            left: 50%;
+        }
+    
+     }
+     /********** Extra Small device **********/
+    @media (max-width: 480px) and (max-width: 767px) { 
+        .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6,
+         .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12{
+            float: left;
+            border: 0px solid pink;
+         }
+        .col-xs-1{width: 8.33%;}
+        .col-xs-2{width: 16.66%;}
+        .col-xs-3{width: 25%;}
+        .col-xs-4{width: 33.33%;}
+        .col-xs-5{width: 41.66%;}
+        .col-xs-6{width: 50%;}
+        .col-xs-7{width: 58.33%;}
+        .col-xs-8{width: 66.66%;}
+        .col-xs-9{width: 75%;}
+        .col-xs-10{width: 83.33%;}
+        .col-xs-11{width: 91.66%;}
+        .col-xs-12{width: 100%;}
+    
+     }
+    /********** tiny Devices **********/
+    @media (max-width: 479px) { 
+    .col-1, .col-2, .col-3, .col-4, .col-5, .col-6,
+     .col-7, .col-8, .col-9, .col-10, .col-11, .col-12{
+        float: left;
+        border: 0px solid pink;
+     }
+    
+    .col-1{width: 8.33%;}
+    .col-2{width: 16.66%;}
+    .col-3{width: 25%;}
+    .col-4{width: 33.33%;}
+    .col-5{width: 41.66%;}
+    .col-6{width: 50%;}
+    .col-7{width: 58.33%;}
+    .col-8{width: 66.66%;}
+    .col-9{width: 75%;}
+    .col-10{width: 83.33%;}
+    .col-11{width: 91.66%;}
+    .col-12{width: 100%;}
+     
+      }
+    
+    
+    
+    
+    
+    
+    
